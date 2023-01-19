@@ -1,0 +1,214 @@
+@media(max-width:1200px) {
+    .footer__cont{
+        width: 100%;
+    }
+    .footer__mid {
+        width: 100%;
+    }
+    .footer__logo {
+        width: 100%;
+    }
+    .footer
+    .top__side {
+        height: 100px;
+        display: flex;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: 0;
+    }
+    .top__side-box-button{
+        margin-right: 25px;
+    }
+    .top__side-main {
+        position: relative;
+    }
+    .top__side-main-wrap {
+        opacity: 0;
+        visibility: hidden;
+    }
+    .header__logo-img img {
+        position: fixed;
+        top: 0px;
+        z-index: 4;
+        left: 100px;
+        width: 250px
+    }
+    .swiper {
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .header__logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .adv {
+        margin-bottom: 0;
+    }
+    .adv__title {
+        margin-top: 120px;
+    }
+    .adv__span {
+        margin-bottom: 0;
+    }
+    .adv__wrap {
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .counter__wrap-desc {
+        font-size: 20px;
+        width: 500px;
+    }
+    .numbers__wrap {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .numbers__wrap-box-title {
+        margin-top: 15px;
+    }
+    .service .gallery__wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .service .gallery__wrap-box-video {
+        width: 500px;
+        height: 100%;
+    }
+    .partners__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .news__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .news__box-img {
+        margin-top: 15px;
+    }
+    .footer__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__vk {
+        display: flex;
+        justify-content: center;
+    }
+    .footer__vk-link {
+        margin-top: 25px;
+        margin-left: 15px;
+    }
+}
+@media(max-width:820px) {
+    .header__nav-link {
+        height: 75px;
+    }
+    .header__logo-img img {
+        top: 25px;
+    }
+     .top__side-main {
+        display: none;
+    }
+    .posic {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 40px;
+        font-size: 25px;
+        color:#ff0400;
+        transition: 0.5s;
+        z-index: 55;
+    }
+    .header-wrap {
+        display: none;
+    }
+    .header__logo-img img {
+        display: block;
+        margin: 0 auto;
+    }
+    .header__nav-show {
+        display: block;
+    }
+    .top__side-box {
+        justify-content: center;
+        margin-top: 88px;
+    }
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .link_list {
+        position: absolute;
+        top: 50px;
+    }
+    .header__nav-link {
+        background-color: #ff0400;
+        width: 100%;
+    }
+    .counter__wrap-title {
+        font-size: 35px;
+    }
+    .anim__item {
+        font-size: 25px;
+    }
+    .service .gallery__wrap-box-video {
+        width: 320px;
+    }
+    .counter__wrap-desc {
+        width: 100%;
+    }
+    .cont__wrap {
+        flex-direction: column;
+    }
+    .cont__tel {
+        margin-top: 25px;
+    }
+    
+}
+@media(max-width:475px) {
+    .adv__title {
+        text-align: center;
+    }
+    .counter__wrap-title {
+        text-align: center;
+    }
+    .service__wrap-title {
+        text-align: center;
+        font-size: 28px;
+    }
+    .service__wrap-desc{
+        text-align: center;
+    }
+    .header__logo-img img {
+        display: block;
+    }
+    .header__logo-img img {
+        width: 200px;
+        left: 0;
+
+    }
+    .news__box-img {
+        width: 320px;
+    }
+    .botcont .cont__title {
+        margin: 0 49px -17px 0;
+        font-size: 14px;
+    }
+    .numbers__wrap-box-title {
+        font-size: 12px;
+    }
+    #out-1, #out-2, #out-3,#out-4 {
+        font-size: 20px;
+    }
+}
